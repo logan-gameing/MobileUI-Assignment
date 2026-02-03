@@ -36,7 +36,7 @@ export default function Content() {
 
 const styles = StyleSheet.create({
   content: {
-    backgroundColor: "linear-gradient(#18455a, #223f5f)",
+    backgroundColor: "#18455a",
     width: "100%",
     height: "100%",
   },
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     height: 200,
   },
   gamebottom: {
-    backgroundImage: "linear-gradient(#000000, #223f5f)",
+    backgroundColor: "#142538",
     height: 80,
     padding: 4,
   },
