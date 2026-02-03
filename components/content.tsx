@@ -25,8 +25,7 @@ export default function Content() {
             <Text style={styles.gametext}>Portal 2</Text>
             <Text style={styles.pricetext}>CDN$ 20.00</Text>
           </View>
-        </View>{" "}
-        {/* featured ends here and discounts begins */}
+        </View>
       </View>
       <View style={styles.eventtab}>
         <Text style={styles.genretext}>Discounts & Events</Text>
