@@ -27,32 +27,34 @@ export default function Content() {
           </View>
         </View>
       </View>
+      <View style={styles.discounttab}>
+        <Text style={styles.genretext}>Discounts & Events</Text>
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   content: {
-    backgroundImage: "linear-gradient(#18455a, #223f5f)",
+    backgroundColor: "linear-gradient(#18455a, #223f5f)",
     width: "100%",
     height: "100%",
-    paddingTop: 20,
-    paddingLeft: 15,
   },
   genretext: {
     color: "#ffffff",
     fontSize: 20,
+    paddingTop: 20,
+    paddingLeft: 15,
   },
   listgames: {
+    paddingLeft: 14,
+    marginTop: 8,
+    marginLeft: 7,
     display: "flex",
     flexDirection: "row",
   },
-  discounttab: {},
-  listdiscountgame: {},
   game: {
     marginRight: 15,
-    left: 8,
-    top: 10,
     width: 350,
     boxShadow: "1px 3px 8px black",
   },
@@ -72,8 +74,30 @@ const styles = StyleSheet.create({
   pricetext: {
     color: "#ffffff",
     fontSize: 12,
-    top: 5,
+    top: 6,
     left: 15,
+  },
+  listdiscountgame: {},
+  discounttab: {
+    top: 50,
+    backgroundColor: "#1a2e46",
+    width: "100%",
+    height: 500,
+  },
+  discountgame: {
+    marginRight: 15,
+    left: 8,
+    top: 10,
+    width: 350,
+    boxShadow: "1px 3px 8px black",
+  },
+  discountgameimage: {
+    height: 200,
+  },
+  discountgamebottom: {
+    backgroundImage: "linear-gradient(#000000, #223f5f)",
+    height: 80,
+    padding: 4,
   },
 });
 
