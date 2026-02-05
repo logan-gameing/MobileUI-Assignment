@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-
+import Footer from './footer';
 export default function Index() {
   return (
     <View
@@ -10,6 +10,8 @@ export default function Index() {
       }}
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Footer />
     </View>
+    
   );
 }
