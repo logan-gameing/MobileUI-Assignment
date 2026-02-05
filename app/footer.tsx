@@ -32,10 +32,13 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         backgroundColor: '#1f2124',
-        width: '100%'
+        height: 80,
+        width: '100%',
+        paddingBottom: 25
 
     },
     footerItem: {
+        flex: 1,
         alignItems: 'center',
         justifyContent: 'center'
     }
