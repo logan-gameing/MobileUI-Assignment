@@ -1,6 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
-import Entypo from '@expo/vector-icons/Entypo';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { StyleSheet, Text, View } from 'react-native';
 
 interface HeaderProps {
   walletBalance: string;
@@ -10,7 +10,7 @@ const Header = ({ walletBalance }: HeaderProps) => {
   return (
     <View style={styles.headerContainer}>
       <View style={styles.leftSection}>
-        <Entypo name="steam" size={28} color="white" />
+      <FontAwesome name="steam" size={28} color="white" />
 
         <View style={styles.menuContainer}>
           <AntDesign name="bars" size={20} color="white" />
