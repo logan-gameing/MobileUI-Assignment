@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import { View } from "react-native";
 import Content from "../components/content";
 
@@ -11,6 +12,7 @@ export default function Index() {
       }}
     >
       <Content></Content>
+      <Footer></Footer>
     </View>
   );
 }

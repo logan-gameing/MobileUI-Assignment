@@ -31,9 +31,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: '#1f2124',
-    height: 80,
+    height: 150,
     width: '100%',
-    paddingBottom: 25
+    paddingBottom: 90
 
   },
   footerItem: {
