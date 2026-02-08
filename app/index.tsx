@@ -12,7 +12,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Header walletBalance={"2.68"}></Header>
+      <Header walletBalance={"CDN 2.68"}></Header>
       <Content></Content>
       <Footer></Footer>
     </View>
