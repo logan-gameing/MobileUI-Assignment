@@ -1,6 +1,6 @@
-import AntDesign from '@expo/vector-icons/AntDesign';
-import FontAwesome from '@expo/vector-icons/FontAwesome';
-import { StyleSheet, Text, View } from 'react-native';
+import AntDesign from "@expo/vector-icons/AntDesign";
+import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { StyleSheet, Text, View } from "react-native";
 
 interface HeaderProps {
   walletBalance: string;
@@ -10,7 +10,7 @@ const Header = ({ walletBalance }: HeaderProps) => {
   return (
     <View style={styles.headerContainer}>
       <View style={styles.leftSection}>
-      <FontAwesome name="steam" size={28} color="white" />
+        <FontAwesome name="steam" size={28} color="white" />
 
         <View style={styles.menuContainer}>
           <AntDesign name="bars" size={20} color="white" />
@@ -28,38 +28,40 @@ const Header = ({ walletBalance }: HeaderProps) => {
 
 const styles = StyleSheet.create({
   headerContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    backgroundColor: '#171A21',
+    top: 100,
+    zIndex: 3,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    backgroundColor: "#171A21",
     paddingHorizontal: 16,
     paddingVertical: 14,
-    width: '100%',
+    width: "100%",
   },
   leftSection: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     gap: 14,
   },
   menuContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     gap: 6,
   },
   menuText: {
-    color: 'white',
+    color: "white",
     fontSize: 14,
-    fontWeight: '500',
+    fontWeight: "500",
   },
   rightSection: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     gap: 16,
   },
   headerText: {
-    color: 'white',
+    color: "white",
     fontSize: 14,
-    fontWeight: '500',
+    fontWeight: "500",
   },
 });
 
